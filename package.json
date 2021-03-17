@@ -1,0 +1,37 @@
+{
+  "name": "cadastro-medico",
+  "version": "1.0.0",
+  "description": "Aplicação para cadastro e validação de médicos.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pebueno/Cadastro-Medico.git"
+  },
+  "keywords": [
+    "SQL",
+    "TypeScript",
+    "Sequelize",
+    "Express",
+    "Migrations",
+    "HTML",
+    "e",
+    "CSS"
+  ],
+  "author": "Pedro Ivo Bueno Sartório",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pebueno/Cadastro-Medico/issues"
+  },
+  "homepage": "https://github.com/pebueno/Cadastro-Medico#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "migrations": "^1.0.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.1",
+    "sql": "^0.78.0"
+  }
+}
