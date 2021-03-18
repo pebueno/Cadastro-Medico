@@ -1,7 +1,7 @@
 const { request } = require('express');
 
-const productsController = require('./productsController');
+const medicosController = require('./medicosController');
 
 module.exports = {
-  products: productsController,
+  medicos: medicosController,
 };
