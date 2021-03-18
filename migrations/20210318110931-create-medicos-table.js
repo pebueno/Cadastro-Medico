@@ -13,7 +13,7 @@ module.exports = {
         allowNull: false,
       },      
       crm: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       telefonefixo: {
@@ -25,7 +25,7 @@ module.exports = {
         allowNull: false,
       },
       cep: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       especialidade: {
