@@ -1,7 +1,6 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     return queryInterface.createTable('Medicos', {
-      // nome de tabela é no PLURAL
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
@@ -39,11 +38,7 @@ module.exports = {
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,
-      },
-      // deletedAt: {
-      //   type: Sequelize.DATE,
-      //   allowNull: true,
-      // },      
+      },      
     });
   },
   down: async (queryInterface, Sequelize) => {

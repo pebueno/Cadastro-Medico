@@ -17,7 +17,6 @@ static postmedicodetails = async (req, res) => {
       cep: req.body.cep,
       especialidade: req.body.especialidade,      
  });
- 
  await medicoDetails.save()
  if(!medicoDetails){
     return res.status(200).send({
@@ -27,7 +26,7 @@ static postmedicodetails = async (req, res) => {
  }
  res.status(200).send({
     status: 200,
-    message: 'Data Save Successfully'
+    message: 'Data Save Successfully',
  });
  }
 
@@ -44,15 +43,17 @@ static postmedicodetails = async (req, res) => {
 
  static getmedicodetails = async (req, res) => {
     const medicoDetails = await MedicoModel.findAll();
+
  if(!medicoDetails){
     return res.status(200).send({
     status: 404,
     message: 'No data found'
  });
  }
- res.status(200).send({
+ res.status(200).json(medicoDetails).send({
     status: 200,
-    message: 'Data find Successfully'
+    message: 'Data find Successfully',
+       
  });
  }
  catch(error){
@@ -76,7 +77,8 @@ static updatedetails = async (req, res) => {
       cep: req.body.cep,
       especialidade: req.body.especialidade,   
  },
- {where: {id: req.body.id} });
+ {where: {id: req.body.id}});
+ 
  if(!medicoDetails){
     return res.status(200).send({
       status: 404,
