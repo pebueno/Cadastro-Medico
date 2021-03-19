@@ -23,7 +23,7 @@ git clone https://github.com/pebueno/Cadastro-Medico.git
 npm install
 
 ```
-- OBS: (Crie um novo diretorio ao utilizar o projeto, não use o diretório raiz como pasta de projeto)
+- OBS: (Crie um arquivo .env e um novo diretorio ao utilizar o projeto, não use o diretório raiz como pasta de projeto)
 
 
 ## Fotos
