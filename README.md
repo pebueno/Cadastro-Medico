@@ -39,7 +39,7 @@ Método Update
 Método Delete
 ![Requisição](https://github.com/pebueno/Cadastro-Medico/blob/master/assets/screenshots/delete.png?raw=true "Requisição")
 
-# 👍 Contribution
+# 👍 Contribuição
 
 Quer contribuir? Ótimo!
 Compartilhar Código faz do mundo um lugar melhor! <3
@@ -51,7 +51,7 @@ Compartilhar Código faz do mundo um lugar melhor! <3
 5. Pronto, criou uma requisição para alterar o projeto
 
 
-### Support
+### Suporte
 ----
 
 Me ajude a continuar desenvolvendo soluções para comunidade.
